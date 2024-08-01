@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: -0.03em;
+    line-height: 1.5rem;
+    background-color: white;
+    color: #17253D;
+    font-family: family1;
+}
+
+@font-face {
+    font-family: family1;
+    src: url(font/latest1.woff2);
+}
+
+@font-face {
+    font-family: family2;
+    src: url(font/latest2.woff2);
+}
+
+@font-face {
+    font-family: family3;
+    src: url(font/MWFFluentIcons.woff2);
+}
+
+@font-face {
+    font-family: family4;
+    src: url(font/mwfmdl2-v3.54.woff);
+}
+
+.whole{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    overflow-x: visible;
+    margin-bottom: 34px;
+    margin-top: 0;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+}
+
+.header-inner{
+    overflow-x: visible;
+    border-bottom: 1px solid #e6e6e6;
+    height: 54px;
+}
+
+.header-inner-in{
+    overflow-x: visible;
+    position: relative;
+    padding: 2px 0;
+}
+
+.menu-button{
+    overflow-x: visible;
+    margin: 1px;
+    width: 48px;
+    height: 48px;
+    float: left;
+    font-size: 20px;
+    background: transparent;
+}
+
+.menu-button::before{
+    width: 20px;
+    height: 20px;
+    margin-top: 7px;
+    vertical-align: baseline;
+    line-height: 15px;
+    content: "";
+    text-decoration: none;
+    display: inline-block;
+    font-family: family4;
+}
+
+.microsoft-feild{
+    overflow-x: visible;
+    margin: 1px;
+    padding: 12px 4px;
+    float: none;
+    display: block;
+    position: absolute;
+    left: calc(50% - 60px);
+    height: auto;
+    text-decoration: none;
+    background: transparent;    
+}
+
+.microsoft-feild img{
+    margin-top: -3px;
+    overflow-x: visible;
+    max-width: none;
+    width: 108px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.azure-in-head{
+    overflow-x: visible;
+    left: 0;
+    background-color: white;
+    border-bottom: 1px solid #e6e6e6;
+    display: block;
+    height: 34px;
+    position: absolute;
+    width: 100%;
+    top: 54px;
+    float: right;
+}
+
+.azure-button{
+    overflow-x: visible;
+    background-color: transparent;
+    border: 0;
+    color: black;
+    display: block;
+    font-weight: 600;
+    height: 100%;
+    margin: 0 1px;
+    padding: 0 15px;
+    text-align: left;
+    overflow: visible;
+    font-size: 15px;
+    font-family: family2;
+}
+
+.azure-button::after{
+    content: "";
+    font-family: family4;
+    font-size: 12px;
+    font-weight: 700;
+    position: relative;
+    top: 2px;
+    padding-left: 7px;
+}
+
+.actions{
+    overflow-x: visible;
+    margin: 0;
+    justify-content: flex-start;
+    float: right;
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.c-search{
+    overflow-x: visible;
+    display: block;
+    margin: 6px 0;
+    float: left;
+    min-width: 0;
+    width: 0;
+    color: black;
+    height: 38px;
+    position: relative;
+    max-width: 296px;
+}
+
+.search-button{
+    overflow-x: visible;
+    left: 1px;
+    padding:  8px 8px 8px 0;
+    margin-left: 2px;
+    height: 32px;
+    background: transparent;
+    margin-right: 6px;
+    white-space: nowrap;
+    line-height: 18px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 34px;
+    margin: 2px 2px 1px 1px;
+    float: left;
+    overflow: visible;
+}
+
+.search-button::after{
+    vertical-align: baseline;
+    font-family: family4;
+    content: "";
+    border: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 2px;
+    position: relative;
+    text-indent: 0;
+    white-space: nowrap;
+    line-height: 18px;
+    color: black;
+}
+
+.main-img{
+    max-height: 100%;
+    overflow: hidden;
+
+}
+
+.main-img picture{
+    max-width: 100%;
+    object-fit: fill;
+    aspect-ratio: auto;
+}
+
+.main-img picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.main-content{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main-content-in{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -0.25rem;
+    margin-left: -0.25rem;
+}
+
+.main-content-in-inner{
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.loyout-section{
+    margin-top: 2rem;
+    flex-direction: column;
+    column-gap: 0.75rem;
+    display: flex;
+    row-gap: 0.5rem;
+
+}
+
+.loyout-section-in{
+    flex: 0 0 100%;
+}
+
+.loyout-header{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.block-heading-eyebrow{
+    text-transform: uppercase;
+    margin: 0 0 0.75rem;
+    color: #17253D;
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: 0.08em;
+}
+
+.block-heading-title{
+    color: #0e1726;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    letter-spacing: -0.05rem;
+}
+
+.block-heading-para{
+    color: #17253d;
+    margin: 1rem 0 0;
+    padding-inline-end: 1rem;
+}
