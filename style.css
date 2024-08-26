@@ -133,10 +133,6 @@
     color: white;
   }
   
-  .buttons-list > li:not(:first-child):hover {
-    background-color: #b8d0e1;
-  }
-  
   .bottom-button {
     display: flex;
     align-items: center;
@@ -1131,10 +1127,6 @@
     border-left-color: transparent;
   }
   
-  .resources-by-role ul > li:hover {
-    border-bottom-color: var(--blue);
-  }
-  
   .resources-by-role .resources-bg-content {
     max-width: 1336px;
     display: flex;
@@ -1377,10 +1369,6 @@
     border-bottom: 4px solid transparent;
   }
   
-  .customer-stories-small-div > li:hover {
-    border-bottom-color: #005597;
-  }
-  
   .customer-stories-small-div > li:not(:first-child) {
     border-left: 1px solid #e2e2e2;
   }
@@ -1531,11 +1519,6 @@
     color: #757575;
     cursor: pointer;
     min-width: max-content;
-  }
-  
-  .footer-bottom-section ul > li:hover,
-  .footer-content-section ul > li:not(:first-child):hover {
-    text-decoration: underline;
   }
   
   .footer-content-section > ul > li:first-child {
